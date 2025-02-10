@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(Free\ Photo\ _\ Abstract\ Smooth\ Brown\ wall\ background\ layout\ design\,\,web\ template\,Business\ report\ with\ smooth\ circle\ gradient\ color.jpg);
+    background-size: cover;
+}
+.container {
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 2rem;
+    color: #774949;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background: #774949;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+    color: black;
+
+}
+li:hover {
+    background: #ddd;
+    transform: scale(1.05);
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    transition: color 0.3s ease-in-out;
+}
